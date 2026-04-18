@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
-import { Hero } from './components/sections/Hero';
+import { ScrollVideoHero } from './components/sections/ScrollVideoHero';
 import { StatsBar } from './components/sections/StatsBar';
 import { Collection } from './components/sections/Collection';
 import { MaterialStory } from './components/sections/MaterialStory';
@@ -16,7 +16,7 @@ function App() {
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent/30 selection:text-accent-foreground">
       <Navbar />
       <main>
-        <Hero />
+        <ScrollVideoHero />
         <StatsBar />
         <Collection />
         <MaterialStory />
